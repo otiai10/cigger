@@ -28,7 +28,7 @@ before_script:
   # Get cigger beforehands
   - go get github.com/otiai10/cigger
 script:
-  # Run the tests of this project
+  # Run the tests of your project
   - go test -v
 after_script:
   # Trigger build of another project via `cigger`
